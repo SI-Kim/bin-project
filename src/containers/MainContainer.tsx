@@ -1,5 +1,5 @@
-import * as React from 'react';
+import * as React from "react";
 
-export default function MainContainer(): JSX.Element {
-    return <div></div>;
+export default function MainContainer() {
+  return <main></main>;
 }

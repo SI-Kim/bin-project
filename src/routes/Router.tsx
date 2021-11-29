@@ -4,13 +4,10 @@ import { MainContainer } from "../containers";
 
 export default function Router() {
   return (
-    <div className="Router" >
-        <Routes>
-            <Route
-                path="/"
-                component={MainContainer}
-            />
+    <div className="Router">
+      <Routes>
+        <Route path="/" component={MainContainer} />
       </Routes>
     </div>
   );
-};
+}
