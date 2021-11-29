@@ -12,12 +12,21 @@
     "noUnusedLocals": true,
     "strict": true,
     "outDir": "build",
-    "lib": ["es6", "es7", "dom"],
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ],
     "baseUrl": "src",
     "paths": {
-      "app/*": ["./src/*"]
+      "app/*": [
+        "./src/*"
+      ]
     },
-    "allowSyntheticDefaultImports": true
-  },
-  "exclude": ["build", "node_modules"]
+    "allowSyntheticDefaultImports": true,
+    "exclude": [
+      "build",
+      "node_modules"
+    ]
+  }
 }
