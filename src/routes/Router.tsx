@@ -7,7 +7,7 @@ export default function Router(): JSX.Element {
   return (
     <div className="page">
       <Routes>
-        <Route path='/' component={MainContainer} />
+        <Route path="/" element={<MainContainer />} />
       </Routes>
     </div>
   );
