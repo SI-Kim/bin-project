@@ -4,9 +4,6 @@ import "../styles/layouts.css";
 export default function Header() {
   return (
   <header>
-    <div className="logo">
-
-    </div>
     <div className="line" />  
     <nav>
       <ul>
