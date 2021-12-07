@@ -1,8 +1,11 @@
-import * as React from 'react';
+import * as React from "react";
 
 const Advertisement: JSX.Element = () => {
-
-  return (<div><div>);
-}
+  return (
+    <div>
+      <p>Advertisement</p>
+    </div>
+  );
+};
 
 export default Advertisement;
